@@ -1,3 +1,12 @@
 @import "abstract/variables";
 @import 'bootstrap/scss/bootstrap.scss';
 @import "abstract/base";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --button-A: #46139f;
+    --button-B: #ff7f50;
+    --button-C: #46139f;
+
+  }
